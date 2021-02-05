@@ -18,9 +18,10 @@ const styles = StyleSheet.create({
     backgroundColor: 'gray',
   },
   text: {
-    paddingTop: 60,
+    paddingTop: 40,
     color: '#fff',
-    fontSize: 23,
+    fontSize: 40,
+    fontWeight: 'bold',
     textAlign: 'center',
   },
 });
