@@ -14,11 +14,6 @@ const App = () => {
   const [data, setData] = useState({});
 
   const submitWeatherReq = (value) => {
-    console.log({value});
-    const sendBody = {};
-
-    const body = JSON.stringify(sendBody);
-
     const config = {
       method: 'GET',
       url: 'https://community-open-weather-map.p.rapidapi.com/weather',

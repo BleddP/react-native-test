@@ -21,8 +21,6 @@ const ViewData = ({data}) => {
     );
   }
 
-  const degree = 'U00B0';
-
   const sunrise = moment(data.sys.sunrise).format('HH:mm');
   const sunset = moment(data.sys.sunset).format('HH:mm');
 
