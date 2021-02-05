@@ -26,7 +26,7 @@ const App = () => {
         mode: 'xml, html',
       },
       headers: {
-        'x-rapidapi-key': '6ddb8b22a1mshb9dd74689e0cba6p16e3eejsne28b13250694',
+        'x-rapidapi-key': process.env.RAPID_API,
         'x-rapidapi-host': 'community-open-weather-map.p.rapidapi.com',
       },
     };
